@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="SkyfallerBase">
+        <defName>OKA_ColonyResourcePod_ColonistIncoming</defName>
+        <label>colonist drop pod (incoming)</label>
+        <thingClass>ColonyResourcePod.ColonyDropPodIncoming</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutFlying</shaderType>
+          <drawSize>1.9</drawSize>
+        </graphicData>
+        <skyfaller>
+          <movementType>Decelerate</movementType>
+          <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+          <shadowSize>(2, 2)</shadowSize>
+          <anticipationSound>DropPod_Fall</anticipationSound>
+          <anticipationSoundTicks>100</anticipationSoundTicks>
+          <motesPerCell>0</motesPerCell>
+        </skyfaller>
+    </ThingDef>
+
+    <ThingDef ParentName="SkyfallerBase">
+        <defName>OKA_ColonyResourcePod_LargeIncoming</defName>
+        <label>large drop pod (incoming)</label>
+        <thingClass>ColonyResourcePod.ColonyDropPodIncoming</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutFlying</shaderType>
+          <drawSize>1.9</drawSize>
+        </graphicData>
+        <skyfaller>
+          <movementType>Decelerate</movementType>
+          <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+          <shadowSize>(2, 2)</shadowSize>
+          <anticipationSound>DropPod_Fall</anticipationSound>
+          <anticipationSoundTicks>100</anticipationSoundTicks>
+          <motesPerCell>0</motesPerCell>
+        </skyfaller>
+    </ThingDef>
+
+    <ThingDef ParentName="SkyfallerBase">
+        <defName>OKA_ColonyResourcePod_SmallIncoming</defName>
+        <label>small drop pod (incoming)</label>
+        <thingClass>ColonyResourcePod.ColonyDropPodIncoming</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutFlying</shaderType>
+          <drawSize>0.9</drawSize>
+        </graphicData>
+        <skyfaller>
+          <movementType>Decelerate</movementType>
+          <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+          <shadowSize>(1, 1)</shadowSize>
+          <anticipationSound>DropPod_Fall</anticipationSound>
+          <anticipationSoundTicks>100</anticipationSoundTicks>
+          <motesPerCell>0</motesPerCell>
+        </skyfaller>
+    </ThingDef>
+
+</Defs>

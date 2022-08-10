@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef>
+        <defName>OKA_ColonyResourcePod_Colonist</defName>
+        <label>colony resource pod - colonist</label>
+        <category>Misc</category>
+        <targetTags>
+          <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ColonyResourcePod.IncidentWorker_ColonyResourcePodDrop_Colonist</workerClass>
+        <baseChance>0.0</baseChance>
+      </IncidentDef>
+
+      <IncidentDef>
+        <defName>OKA_ColonyResourcePod_Large</defName>
+        <label>colony resource pod - large</label>
+        <category>Misc</category>
+        <targetTags>
+          <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ColonyResourcePod.IncidentWorker_ColonyResourcePodDrop_Large</workerClass>
+        <baseChance>0.0</baseChance>
+      </IncidentDef>
+
+      <IncidentDef>
+        <defName>OKA_ColonyResourcePod_Small</defName>
+        <label>colony resource pod - small</label>
+        <category>Misc</category>
+        <targetTags>
+          <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ColonyResourcePod.IncidentWorker_ColonyResourcePodDrop_Small</workerClass>
+        <baseChance>0.0</baseChance>
+      </IncidentDef>
+
+</Defs>

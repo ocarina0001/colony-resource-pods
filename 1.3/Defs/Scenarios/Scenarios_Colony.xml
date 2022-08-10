@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ScenarioDef>
+        <defName>OKA_Colonization</defName>
+        <label>Oka Colonization</label> 
+        <description>Sent down from the space station orbitting around this RimWorld, you three were chosen to be founders of this new colony, one of millions. Stay safe, and use your resource pods wisely.</description>
+        <scenario>
+            <summary>Three colonists sent from Oka Colonization to colonize and create a thriving colony on a hostile RimWorld.\n\nThis scenario will be easier to play due to the amount of things in your favor. It would be recommend to play on harder difficulties if you want something harder.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>PlayerColony</factionDef>
+            </playerFaction>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>3</pawnCount>
+                    <pawnChoiceCount>10</pawnChoiceCount>
+                </li>
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>1000</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>50</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>50</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>50</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Steel</thingDef>
+                    <count>500</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>500</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_AssaultRifle</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_BoltActionRifle</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MeleeWeapon_Knife</thingDef>
+                    <stuff>Plasteel</stuff>
+                </li>
+                <li Class="ScenPart_StartingAnimal">
+                    <def>StartingAnimal</def>
+                    <animalKind>Chicken</animalKind>
+                    <count>4</count>
+                    <bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+                </li>
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>OKA_ColonyResourcePod_Colonist</incident>
+                    <intervalDays>60</intervalDays>
+                    <repeat>True</repeat>
+                </li>
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>OKA_ColonyResourcePod_Large</incident>
+                    <intervalDays>30</intervalDays>
+                    <repeat>True</repeat>
+                </li>
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>TreeSowing</project>
+                </li>
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>SolarPanels</project>
+                </li>
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>WatermillGenerator</project>
+                </li>
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>Batteries</project>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

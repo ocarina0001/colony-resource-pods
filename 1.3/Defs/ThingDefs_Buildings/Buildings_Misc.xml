@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="OKA_DropPodBase" Abstract="True">
+        <category>Building</category>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <selectable>true</selectable>
+        <drawerType>MapMeshOnly</drawerType>
+        <repairEffect>Repair</repairEffect>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+        <rotatable>false</rotatable>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0.5</fillPercent>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <uiIconScale>0.65</uiIconScale>
+        <costList>
+          <Silver>1500</Silver>
+        </costList>
+        <statBases>
+          <SellPriceFactor>1.00</SellPriceFactor>
+        </statBases>
+      </ThingDef>
+
+      <ThingDef ParentName="OKA_DropPodBase">
+        <defName>OKA_ColonyResourcePod_Colonist</defName>
+        <label>colonist drop pod</label>
+        <description>A large drop pod containing a human colonist, as well shelf-stable rations and industrial medicine. The human is kept alive via a single-use small-scale version of a cryptosleep casket.</description>
+        <thingClass>ColonyResourcePod.ColonyResourcePod_Colonist</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <designationCategory>Misc</designationCategory>
+        <statBases>
+          <MaxHitPoints>2500</MaxHitPoints>
+          <WorkToBuild>1600</WorkToBuild>
+          <Flammability>0.5</Flammability>
+        </statBases>
+      </ThingDef>
+
+      <ThingDef ParentName="OKA_DropPodBase">
+        <defName>OKA_ColonyResourcePod_Large</defName>
+        <label>large drop pod</label>
+        <description>A large drop pod containing resources to help grow a colony.</description>
+        <thingClass>ColonyResourcePod.ColonyResourcePod_Large</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <designationCategory>Misc</designationCategory>
+        <statBases>
+          <MaxHitPoints>2500</MaxHitPoints>
+          <WorkToBuild>1600</WorkToBuild>
+          <Flammability>0.5</Flammability>
+        </statBases>
+      </ThingDef>
+
+      <ThingDef ParentName="OKA_DropPodBase">
+        <defName>OKA_ColonyResourcePod_Small</defName>
+        <label>small drop pod</label>
+        <description>A small drop pod containing resources to help grow a colony.</description>
+        <thingClass>ColonyResourcePod.ColonyResourcePod_Small</thingClass>
+        <graphicData>
+          <texPath>OKA/Things/Special/DropPod</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <designationCategory>Misc</designationCategory>
+        <statBases>
+          <MaxHitPoints>1000</MaxHitPoints>
+          <WorkToBuild>1600</WorkToBuild>
+          <Flammability>0.5</Flammability>
+        </statBases>
+        <costList>
+          <Silver>500</Silver>
+        </costList>
+      </ThingDef>
+
+</Defs>

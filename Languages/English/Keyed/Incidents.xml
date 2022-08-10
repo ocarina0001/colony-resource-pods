@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <OKA_LetterLabelColonyResourcePod_Colonist>Colonist drop pod</OKA_LetterLabelColonyResourcePod_Colonist>
+    <OKA_ColonyResourcePodDrop_Colonist>A large drop pod containing a colonist and some resources has been sent down to your location.\n\nDeconstruct the pod to relieve the newfound colonist from stasis, and obtain the resources within.</OKA_ColonyResourcePodDrop_Colonist>
+
+    <OKA_LetterLabelColonyResourcePod_Large>Large colony drop pod</OKA_LetterLabelColonyResourcePod_Large>
+    <OKA_ColonyResourcePodDrop_Large>A large drop pod containing a pool of resources has been sent down to your location.\n\nDeconstruct the pod to recieve the resources.</OKA_ColonyResourcePodDrop_Large>
+
+    <OKA_LetterLabelColonyResourcePod_Small>Small colony drop pod</OKA_LetterLabelColonyResourcePod_Small>
+    <OKA_ColonyResourcePodDrop_Small>A small drop pod containing a small section of resources has been sent down to your location.\n\nDeconstruct the pod to recieve the resources.</OKA_ColonyResourcePodDrop_Small>
+
+</LanguageData>
