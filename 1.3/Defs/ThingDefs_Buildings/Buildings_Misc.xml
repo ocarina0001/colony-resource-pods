@@ -36,7 +36,6 @@
           <drawSize>(2,2)</drawSize>
         </graphicData>
         <size>(2,2)</size>
-        <designationCategory>Misc</designationCategory>
         <statBases>
           <MaxHitPoints>2500</MaxHitPoints>
           <WorkToBuild>1600</WorkToBuild>
@@ -55,7 +54,6 @@
           <drawSize>(2,2)</drawSize>
         </graphicData>
         <size>(2,2)</size>
-        <designationCategory>Misc</designationCategory>
         <statBases>
           <MaxHitPoints>2500</MaxHitPoints>
           <WorkToBuild>1600</WorkToBuild>
@@ -74,7 +72,6 @@
           <drawSize>(1,1)</drawSize>
         </graphicData>
         <size>(1,1)</size>
-        <designationCategory>Misc</designationCategory>
         <statBases>
           <MaxHitPoints>1000</MaxHitPoints>
           <WorkToBuild>1600</WorkToBuild>
